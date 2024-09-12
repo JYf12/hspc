@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.huashengpc.mapper.UsersAuditMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.huashengpc.models.domain.UsersAudit">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="openId" column="open_id" jdbcType="VARCHAR"/>
+            <result property="telephone" column="telephone" jdbcType="VARCHAR"/>
+            <result property="email" column="email" jdbcType="VARCHAR"/>
+            <result property="address" column="address" jdbcType="VARCHAR"/>
+            <result property="invoiceTitle" column="invoice_title" jdbcType="VARCHAR"/>
+            <result property="taxNumber" column="tax_number" jdbcType="VARCHAR"/>
+            <result property="bank" column="bank" jdbcType="VARCHAR"/>
+            <result property="bankNumber" column="bank_number" jdbcType="VARCHAR"/>
+            <result property="bankPhone" column="bank_phone" jdbcType="VARCHAR"/>
+            <result property="companyAddress" column="company_address" jdbcType="VARCHAR"/>
+            <result property="companyStatus" column="company_status" jdbcType="VARCHAR"/>
+            <result property="phoneNum" column="phone_num" jdbcType="VARCHAR"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="unitname" column="unitname" jdbcType="VARCHAR"/>
+            <result property="orderId" column="order_id" jdbcType="BIGINT"/>
+            <result property="isAudit" column="is_audit" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,open_id,telephone,
+        email,address,invoice_title,
+        tax_number,bank,bank_number,
+        bank_phone,company_address,company_status,
+        phone_num,name,unitname,
+        order_id,is_audit
+    </sql>
+</mapper>

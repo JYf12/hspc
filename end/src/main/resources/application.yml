@@ -1,0 +1,22 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /api
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+    url: jdbc:sqlserver://119.97.224.22:1433;DatabaseName=BiddingAgent
+    username: bidder
+    password: hs%IJn153
+
+#    url: jdbc:sqlserver://203.189.211.93:1433;DatabaseName=BiddingAgent
+#    username: bidguest
+#    password: 0blqz%xL
+  servlet:
+    multipart:
+      max-file-size: 2048MB
+      max-request-size: 2060MB
+logging:
+  file:
+    name: "huashengpc.log"

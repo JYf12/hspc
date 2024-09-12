@@ -1,0 +1,3564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@192.144.229.253">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.45">
+    <root id="1"/>
+    <database id="2" parent="1" name="BiddingAgent">
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@VM-8-11-ubuntu</Fingerprint>
+      <Grants>5|database||1|connect|G
+5|database||0|view any column encryption key definition|G
+5|database||0|view any column master key definition|G</Grants>
+      <ObjectId>5</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+    </database>
+    <database id="3" parent="1" name="huasheng">
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@VM-8-11-ubuntu</Fingerprint>
+      <Grants>6|database||1|connect|G
+6|database||0|view any column encryption key definition|G
+6|database||0|view any column master key definition|G</Grants>
+      <ObjectId>6</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="4" parent="1" name="master">
+      <Current>1</Current>
+      <Fingerprint>1.37717/00000000-0000-0000-0000-000000000000@VM-8-11-ubuntu</Fingerprint>
+      <Grants>1|database||1|connect|G
+1|database||2|connect|G
+1|database||5|connect|G
+1|database||6|connect|G
+1|database||6|execute|G
+1|database||0|view any column encryption key definition|G
+1|database||0|view any column master key definition|G</Grants>
+      <ObjectId>1</ObjectId>
+      <PermissionsCheckSum>7998723517</PermissionsCheckSum>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <database id="7" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </database>
+    <linked-server id="8" parent="1" name="VM-8-11-ubuntu">
+      <DataSource>VM-8-11-ubuntu</DataSource>
+      <Product>SQL Server</Product>
+      <ProviderName>SQLNCLI</ProviderName>
+    </linked-server>
+    <login id="9" parent="1" name="sa">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>1</ObjectId>
+    </login>
+    <login id="10" parent="1" name="public">
+      <Enabled>1</Enabled>
+      <ObjectId>2</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="11" parent="1" name="sysadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>3</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="12" parent="1" name="securityadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>4</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="13" parent="1" name="serveradmin">
+      <Enabled>1</Enabled>
+      <ObjectId>5</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="14" parent="1" name="setupadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>6</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="15" parent="1" name="processadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>7</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="16" parent="1" name="diskadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>8</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="17" parent="1" name="dbcreator">
+      <Enabled>1</Enabled>
+      <ObjectId>9</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="18" parent="1" name="bulkadmin">
+      <Enabled>1</Enabled>
+      <ObjectId>10</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="19" parent="1" name="##MS_ServerStateReader##">
+      <Enabled>1</Enabled>
+      <ObjectId>11</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="20" parent="1" name="##MS_ServerStateManager##">
+      <Enabled>1</Enabled>
+      <ObjectId>12</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="21" parent="1" name="##MS_DefinitionReader##">
+      <Enabled>1</Enabled>
+      <ObjectId>13</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="22" parent="1" name="##MS_DatabaseConnector##">
+      <Enabled>1</Enabled>
+      <ObjectId>14</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="23" parent="1" name="##MS_DatabaseManager##">
+      <Enabled>1</Enabled>
+      <ObjectId>15</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="24" parent="1" name="##MS_LoginManager##">
+      <Enabled>1</Enabled>
+      <ObjectId>16</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="25" parent="1" name="##MS_SecurityDefinitionReader##">
+      <Enabled>1</Enabled>
+      <ObjectId>17</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="26" parent="1" name="##MS_PerformanceDefinitionReader##">
+      <Enabled>1</Enabled>
+      <ObjectId>18</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="27" parent="1" name="##MS_ServerSecurityStateReader##">
+      <Enabled>1</Enabled>
+      <ObjectId>19</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="28" parent="1" name="##MS_ServerPerformanceStateReader##">
+      <Enabled>1</Enabled>
+      <ObjectId>20</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="29" parent="1" name="##MS_SQLResourceSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>101</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="30" parent="1" name="##MS_SQLReplicationSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>102</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="31" parent="1" name="##MS_SQLAuthenticatorCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>103</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="32" parent="1" name="##MS_PolicySigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>105</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="33" parent="1" name="##MS_SmoExtendedSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>106</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="34" parent="1" name="##MS_PolicyEventProcessingLogin##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <ObjectId>256</ObjectId>
+    </login>
+    <login id="35" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <ObjectId>257</ObjectId>
+    </login>
+    <login id="36" parent="1" name="##MS_AgentSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>258</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <login id="37" parent="1" name="BUILTIN\Administrators">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>259</ObjectId>
+      <Type>windows-group</Type>
+    </login>
+    <login id="38" parent="1" name="NT AUTHORITY\SYSTEM">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>260</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="39" parent="1" name="NT AUTHORITY\NETWORK SERVICE">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>261</ObjectId>
+      <Type>windows-login</Type>
+    </login>
+    <login id="40" parent="1" name="##MS_PolicyEventProcessingLogin##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <ObjectId>262</ObjectId>
+    </login>
+    <login id="41" parent="1" name="##MS_AgentSigningCertificate##">
+      <DefaultDatabase>master</DefaultDatabase>
+      <Enabled>1</Enabled>
+      <ObjectId>263</ObjectId>
+      <Type>certificate-mapped-login</Type>
+    </login>
+    <role id="42" parent="2" name="INFORMATION_SCHEMA">
+      <AuthType>none</AuthType>
+      <ObjectId>3</ObjectId>
+    </role>
+    <role id="43" parent="2" name="db_accessadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16385</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="44" parent="2" name="db_backupoperator">
+      <AuthType>none</AuthType>
+      <ObjectId>16389</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="45" parent="2" name="db_datareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16390</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="46" parent="2" name="db_datawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16391</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="47" parent="2" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="48" parent="2" name="db_denydatareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16392</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="49" parent="2" name="db_denydatawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16393</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="50" parent="2" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="51" parent="2" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="52" parent="2" name="dbo">
+      <AuthType>instance</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>1</ObjectId>
+    </role>
+    <role id="53" parent="2" name="guest">
+      <AuthType>none</AuthType>
+      <DefaultSchema>guest</DefaultSchema>
+      <ObjectId>2</ObjectId>
+    </role>
+    <role id="54" parent="2" name="public">
+      <AuthType>none</AuthType>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="55" parent="2" name="sys">
+      <AuthType>none</AuthType>
+      <ObjectId>4</ObjectId>
+    </role>
+    <schema id="56" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="57" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="58" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="59" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="60" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="61" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="62" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="63" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="64" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="65" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="66" parent="2" name="dbo">
+      <Current>1</Current>
+      <DescriptionsCheckSum>1497358119</DescriptionsCheckSum>
+      <IntrospectionTimestamp>2024-05-31.23:45:44.243</IntrospectionTimestamp>
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="67" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="68" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <role id="69" parent="3" name="INFORMATION_SCHEMA">
+      <AuthType>none</AuthType>
+      <ObjectId>3</ObjectId>
+    </role>
+    <role id="70" parent="3" name="db_accessadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16385</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="71" parent="3" name="db_backupoperator">
+      <AuthType>none</AuthType>
+      <ObjectId>16389</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="72" parent="3" name="db_datareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16390</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="73" parent="3" name="db_datawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16391</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="74" parent="3" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="75" parent="3" name="db_denydatareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16392</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="76" parent="3" name="db_denydatawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16393</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="77" parent="3" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="78" parent="3" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="79" parent="3" name="dbo">
+      <AuthType>instance</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>1</ObjectId>
+    </role>
+    <role id="80" parent="3" name="guest">
+      <AuthType>none</AuthType>
+      <DefaultSchema>guest</DefaultSchema>
+      <ObjectId>2</ObjectId>
+    </role>
+    <role id="81" parent="3" name="public">
+      <AuthType>none</AuthType>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="82" parent="3" name="sys">
+      <AuthType>none</AuthType>
+      <ObjectId>4</ObjectId>
+    </role>
+    <schema id="83" parent="3" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="84" parent="3" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="85" parent="3" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="86" parent="3" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="87" parent="3" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="88" parent="3" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="89" parent="3" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="90" parent="3" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="91" parent="3" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="92" parent="3" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="93" parent="3" name="dbo">
+      <Current>1</Current>
+      <DescriptionsCheckSum>2094230074</DescriptionsCheckSum>
+      <IntrospectionTimestamp>2024-05-31.23:45:44.770</IntrospectionTimestamp>
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="94" parent="3" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="95" parent="3" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <role id="96" parent="4" name="##MS_AgentSigningCertificate##">
+      <AuthType>none</AuthType>
+      <ObjectId>6</ObjectId>
+      <Type>certificate-mapped-user</Type>
+    </role>
+    <role id="97" parent="4" name="##MS_PolicyEventProcessingLogin##">
+      <AuthType>instance</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>5</ObjectId>
+    </role>
+    <role id="98" parent="4" name="INFORMATION_SCHEMA">
+      <AuthType>none</AuthType>
+      <ObjectId>3</ObjectId>
+    </role>
+    <role id="99" parent="4" name="db_accessadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16385</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="100" parent="4" name="db_backupoperator">
+      <AuthType>none</AuthType>
+      <ObjectId>16389</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="101" parent="4" name="db_datareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16390</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="102" parent="4" name="db_datawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16391</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="103" parent="4" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="104" parent="4" name="db_denydatareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16392</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="105" parent="4" name="db_denydatawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16393</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="106" parent="4" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="107" parent="4" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="108" parent="4" name="dbo">
+      <AuthType>instance</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>1</ObjectId>
+    </role>
+    <role id="109" parent="4" name="guest">
+      <AuthType>none</AuthType>
+      <DefaultSchema>guest</DefaultSchema>
+      <ObjectId>2</ObjectId>
+    </role>
+    <role id="110" parent="4" name="public">
+      <AuthType>none</AuthType>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="111" parent="4" name="sys">
+      <AuthType>none</AuthType>
+      <ObjectId>4</ObjectId>
+    </role>
+    <schema id="112" parent="4" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="113" parent="4" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="114" parent="4" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="115" parent="4" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="116" parent="4" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="117" parent="4" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="118" parent="4" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="119" parent="4" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="120" parent="4" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="121" parent="4" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="122" parent="4" name="dbo">
+      <Current>1</Current>
+      <DescriptionsCheckSum>1600671582</DescriptionsCheckSum>
+      <Grants>117575457|||0|select|G
+133575514|||0|select|G
+149575571|||0|select|G
+1239675464|||0|select|G
+1255675521|||0|select|G</Grants>
+      <IntrospectionTimestamp>2024-05-31.23:45:44.887</IntrospectionTimestamp>
+      <ObjectId>1</ObjectId>
+      <PermissionsCheckSum>7537407892</PermissionsCheckSum>
+    </schema>
+    <schema id="123" parent="4" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="124" parent="4" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="125" parent="66" name="admin_user">
+      <CreatedTimestamp>2024-05-14.22:51:51.130</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.130</ModifiedTimestamp>
+      <ObjectId>1205579333</ObjectId>
+    </table>
+    <table id="126" parent="66" name="file_addition">
+      <CreatedTimestamp>2023-12-24.18:09:55.790</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:55.790</ModifiedTimestamp>
+      <ObjectId>1237579447</ObjectId>
+    </table>
+    <table id="127" parent="66" name="file_addition">
+      <CreatedTimestamp>2024-05-14.22:51:51.147</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.147</ModifiedTimestamp>
+      <ObjectId>1253579504</ObjectId>
+    </table>
+    <table id="128" parent="66" name="file_addition_audit">
+      <CreatedTimestamp>2023-12-24.18:09:55.937</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:55.937</ModifiedTimestamp>
+      <ObjectId>1269579561</ObjectId>
+    </table>
+    <table id="129" parent="66" name="file_addition_audit">
+      <CreatedTimestamp>2024-05-14.22:51:51.153</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.153</ModifiedTimestamp>
+      <ObjectId>1285579618</ObjectId>
+    </table>
+    <table id="130" parent="66" name="order_info_package">
+      <CreatedTimestamp>2023-12-24.18:09:56.077</CreatedTimestamp>
+      <ModifiedTimestamp>2024-04-23.01:06:20.857</ModifiedTimestamp>
+      <ObjectId>1301579675</ObjectId>
+    </table>
+    <table id="131" parent="66" name="order_info_package">
+      <CreatedTimestamp>2024-05-14.22:51:51.160</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.160</ModifiedTimestamp>
+      <ObjectId>1317579732</ObjectId>
+    </table>
+    <table id="132" parent="66" name="order_info_project">
+      <CreatedTimestamp>2023-12-24.18:09:56.223</CreatedTimestamp>
+      <ModifiedTimestamp>2024-04-23.01:07:02.117</ModifiedTimestamp>
+      <ObjectId>1333579789</ObjectId>
+    </table>
+    <table id="133" parent="66" name="order_info_project">
+      <CreatedTimestamp>2024-05-14.22:51:51.167</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.167</ModifiedTimestamp>
+      <ObjectId>1381579960</ObjectId>
+    </table>
+    <table id="134" parent="66" name="package_info">
+      <CreatedTimestamp>2023-12-24.18:09:56.367</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:56.367</ModifiedTimestamp>
+      <ObjectId>1365579903</ObjectId>
+    </table>
+    <table id="135" parent="66" name="package_info">
+      <CreatedTimestamp>2024-05-14.22:51:51.170</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.170</ModifiedTimestamp>
+      <ObjectId>1445580188</ObjectId>
+    </table>
+    <table id="136" parent="66" name="project_info">
+      <CreatedTimestamp>2023-12-24.18:09:56.507</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:30:41.467</ModifiedTimestamp>
+      <ObjectId>1397580017</ObjectId>
+    </table>
+    <table id="137" parent="66" name="project_info">
+      <CreatedTimestamp>2024-05-14.22:51:51.177</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.177</ModifiedTimestamp>
+      <ObjectId>1477580302</ObjectId>
+    </table>
+    <table id="138" parent="66" name="users">
+      <CreatedTimestamp>2023-12-24.18:09:56.647</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:10:12.543</ModifiedTimestamp>
+      <ObjectId>1429580131</ObjectId>
+    </table>
+    <table id="139" parent="66" name="users">
+      <CreatedTimestamp>2024-05-14.22:51:51.183</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.183</ModifiedTimestamp>
+      <ObjectId>1525580473</ObjectId>
+    </table>
+    <table id="140" parent="66" name="users_audit">
+      <CreatedTimestamp>2023-12-24.18:09:56.790</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:56.790</ModifiedTimestamp>
+      <ObjectId>1461580245</ObjectId>
+    </table>
+    <table id="141" parent="66" name="users_audit">
+      <CreatedTimestamp>2024-05-14.22:51:51.193</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.193</ModifiedTimestamp>
+      <ObjectId>1573580644</ObjectId>
+    </table>
+    <table id="142" parent="93" name="admin_user">
+      <CreatedTimestamp>2023-12-28.04:25:34.737</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:50.227</ModifiedTimestamp>
+      <ObjectId>1205579333</ObjectId>
+    </table>
+    <table id="143" parent="93" name="file_addition">
+      <CreatedTimestamp>2023-12-28.04:25:34.870</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:34.870</ModifiedTimestamp>
+      <ObjectId>1237579447</ObjectId>
+    </table>
+    <table id="144" parent="93" name="file_addition_audit">
+      <CreatedTimestamp>2023-12-28.04:25:35</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35</ModifiedTimestamp>
+      <ObjectId>1269579561</ObjectId>
+    </table>
+    <table id="145" parent="93" name="order_info_package">
+      <CreatedTimestamp>2023-12-28.04:25:35.130</CreatedTimestamp>
+      <ModifiedTimestamp>2024-04-08.22:41:55.790</ModifiedTimestamp>
+      <ObjectId>1301579675</ObjectId>
+    </table>
+    <table id="146" parent="93" name="order_info_project">
+      <CreatedTimestamp>2023-12-28.04:25:35.260</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-31.23:41:09.733</ModifiedTimestamp>
+      <ObjectId>1333579789</ObjectId>
+    </table>
+    <table id="147" parent="93" name="package_info">
+      <CreatedTimestamp>2023-12-28.04:25:35.390</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35.390</ModifiedTimestamp>
+      <ObjectId>1365579903</ObjectId>
+    </table>
+    <table id="148" parent="93" name="project_info">
+      <CreatedTimestamp>2023-12-28.04:25:35.520</CreatedTimestamp>
+      <ModifiedTimestamp>2024-01-05.00:48:49.280</ModifiedTimestamp>
+      <ObjectId>1397580017</ObjectId>
+    </table>
+    <table id="149" parent="93" name="users">
+      <CreatedTimestamp>2023-12-28.04:25:35.653</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:50.403</ModifiedTimestamp>
+      <ObjectId>1429580131</ObjectId>
+    </table>
+    <table id="150" parent="93" name="users_audit">
+      <CreatedTimestamp>2023-12-28.04:25:35.787</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35.787</ModifiedTimestamp>
+      <ObjectId>1461580245</ObjectId>
+    </table>
+    <routine id="151" parent="122" name="sp_MScleanupmergepublisher">
+      <CreatedTimestamp>2023-10-31.00:53:49.750</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-31.00:54:38.640</ModifiedTimestamp>
+      <ObjectId>2139154666</ObjectId>
+      <RoutineType>proc</RoutineType>
+      <SourceTextLength>100</SourceTextLength>
+    </routine>
+    <routine id="152" parent="122" name="sp_MSrepl_startup">
+      <CreatedTimestamp>2023-10-31.00:53:49.737</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-31.00:54:38.630</ModifiedTimestamp>
+      <ObjectId>2123154609</ObjectId>
+      <RoutineType>proc</RoutineType>
+      <SourceTextLength>83</SourceTextLength>
+    </routine>
+    <table id="153" parent="122" name="MSreplication_options">
+      <CreatedTimestamp>2023-10-31.00:53:49.707</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-12.01:11:58.997</ModifiedTimestamp>
+      <ObjectId>2107154552</ObjectId>
+    </table>
+    <table id="154" parent="122" name="admin_user">
+      <CreatedTimestamp>2023-12-24.01:12:44.623</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:56.540</ModifiedTimestamp>
+      <ObjectId>599673184</ObjectId>
+    </table>
+    <table id="155" parent="122" name="file_addition">
+      <CreatedTimestamp>2023-12-24.01:12:44.633</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.633</ModifiedTimestamp>
+      <ObjectId>631673298</ObjectId>
+    </table>
+    <table id="156" parent="122" name="file_addition_audit">
+      <CreatedTimestamp>2023-12-24.01:12:44.640</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.640</ModifiedTimestamp>
+      <ObjectId>663673412</ObjectId>
+    </table>
+    <table id="157" parent="122" name="order_info_package">
+      <CreatedTimestamp>2023-12-24.01:12:44.643</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:56.550</ModifiedTimestamp>
+      <ObjectId>695673526</ObjectId>
+    </table>
+    <table id="158" parent="122" name="order_info_project">
+      <CreatedTimestamp>2023-12-24.01:12:44.653</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:56.557</ModifiedTimestamp>
+      <ObjectId>727673640</ObjectId>
+    </table>
+    <table id="159" parent="122" name="package_info">
+      <CreatedTimestamp>2023-12-24.01:12:44.660</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.660</ModifiedTimestamp>
+      <ObjectId>759673754</ObjectId>
+    </table>
+    <table id="160" parent="122" name="project_info">
+      <CreatedTimestamp>2023-12-24.01:12:44.663</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:56.560</ModifiedTimestamp>
+      <ObjectId>791673868</ObjectId>
+    </table>
+    <table id="161" parent="122" name="spt_fallback_db">
+      <CreatedTimestamp>2003-04-08.17:18:01.557</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-31.00:54:38.587</ModifiedTimestamp>
+      <ObjectId>117575457</ObjectId>
+    </table>
+    <table id="162" parent="122" name="spt_fallback_dev">
+      <CreatedTimestamp>2003-04-08.17:18:02.870</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-31.00:54:38.593</ModifiedTimestamp>
+      <ObjectId>133575514</ObjectId>
+    </table>
+    <table id="163" parent="122" name="spt_fallback_usg">
+      <CreatedTimestamp>2003-04-08.17:18:04.180</CreatedTimestamp>
+      <ModifiedTimestamp>2023-10-31.00:54:38.600</ModifiedTimestamp>
+      <ObjectId>149575571</ObjectId>
+    </table>
+    <table id="164" parent="122" name="spt_monitor">
+      <CreatedTimestamp>2024-05-12.01:11:58.113</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-12.01:11:58.127</ModifiedTimestamp>
+      <ObjectId>1255675521</ObjectId>
+    </table>
+    <table id="165" parent="122" name="users">
+      <CreatedTimestamp>2023-12-24.01:12:44.670</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:56.563</ModifiedTimestamp>
+      <ObjectId>823673982</ObjectId>
+    </table>
+    <table id="166" parent="122" name="users_audit">
+      <CreatedTimestamp>2023-12-24.01:12:44.677</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.677</ModifiedTimestamp>
+      <ObjectId>855674096</ObjectId>
+    </table>
+    <view id="167" parent="122" name="spt_values">
+      <CreatedTimestamp>2024-05-12.01:11:57.950</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-12.01:11:58.073</ModifiedTimestamp>
+      <ObjectId>1239675464</ObjectId>
+      <SourceTextLength>161</SourceTextLength>
+    </view>
+    <column id="168" parent="125" name="id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(10)</SequenceIdentity>
+    </column>
+    <column id="169" parent="125" name="username">
+      <DasType>varchar(128 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="170" parent="125" name="user_account">
+      <DasType>varchar(256 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="171" parent="125" name="user_password">
+      <DasType>varchar(256 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="172" parent="125" name="is_superadmin">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF__admin_use__is_su__49C3F6B7</DefaultConstraintName>
+    </column>
+    <default id="173" parent="125" name="DF__admin_use__is_su__49C3F6B7">
+      <ColNames>is_superadmin</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2024-05-14.22:51:51.140</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1237579447</ObjectId>
+    </default>
+    <default id="174" parent="125" name="DF__admin_use__is_su__59063A47">
+      <ColNames>is_superadmin</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.18:10:12.357</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1493580359</ObjectId>
+    </default>
+    <index id="175" parent="125" name="admin_user_pk">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="176" parent="125" name="admin_user_pk">
+      <CreatedTimestamp>2024-05-14.22:51:51.140</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.140</ModifiedTimestamp>
+      <ObjectId>1221579390</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>admin_user_pk</UnderlyingIndexName>
+    </key>
+    <column id="177" parent="126" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(61545)</SequenceIdentity>
+    </column>
+    <column id="178" parent="126" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="179" parent="126" name="file_path">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="180" parent="126" name="name">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <key id="181" parent="126" name="PK__file_add__3213E83FA950AFC9">
+      <CreatedTimestamp>2023-12-24.18:09:55.790</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:55.790</ModifiedTimestamp>
+      <ObjectId>1253579504</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__file_add__3213E83FA950AFC9</UnderlyingIndexName>
+    </key>
+    <column id="182" parent="127" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(63343)</SequenceIdentity>
+    </column>
+    <column id="183" parent="127" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="184" parent="127" name="file_path">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="185" parent="127" name="name">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="186" parent="127" name="PK__file_add__3213E83FA950AFC9">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="187" parent="127" name="PK__file_add__3213E83FA950AFC9">
+      <CreatedTimestamp>2024-05-14.22:51:51.147</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.147</ModifiedTimestamp>
+      <ObjectId>1269579561</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__file_add__3213E83FA950AFC9</UnderlyingIndexName>
+    </key>
+    <column id="188" parent="128" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="189" parent="128" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="190" parent="128" name="file_path">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="191" parent="128" name="status">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="192" parent="128" name="name">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <key id="193" parent="128" name="PK__file_add__3213E83F8F3198ED">
+      <CreatedTimestamp>2023-12-24.18:09:55.937</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:55.937</ModifiedTimestamp>
+      <ObjectId>1285579618</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__file_add__3213E83F8F3198ED</UnderlyingIndexName>
+    </key>
+    <column id="194" parent="129" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="195" parent="129" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="196" parent="129" name="file_path">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="197" parent="129" name="status">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="198" parent="129" name="name">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="199" parent="129" name="PK__file_add__3213E83F8F3198ED">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="200" parent="129" name="PK__file_add__3213E83F8F3198ED">
+      <CreatedTimestamp>2024-05-14.22:51:51.153</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.153</ModifiedTimestamp>
+      <ObjectId>1301579675</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__file_add__3213E83F8F3198ED</UnderlyingIndexName>
+    </key>
+    <column id="201" parent="130" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(50509)</SequenceIdentity>
+    </column>
+    <column id="202" parent="130" name="order_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="203" parent="130" name="package_id">
+      <DasType>bigint|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="204" parent="130" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="205" parent="130" name="is_pay">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="206" parent="130" name="audit">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="207" parent="130" name="price">
+      <DasType>real|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="208" parent="130" name="join_time">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>getdate()</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_package_join_time</DefaultConstraintName>
+    </column>
+    <column id="209" parent="130" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="210" parent="130" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="211" parent="130" name="address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="212" parent="130" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="213" parent="130" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="214" parent="130" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="215" parent="130" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="216" parent="130" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="217" parent="130" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="218" parent="130" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="219" parent="130" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="220" parent="130" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="221" parent="130" name="unitname">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <column id="222" parent="130" name="download_count">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>22</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_package_download_count</DefaultConstraintName>
+    </column>
+    <column id="223" parent="130" name="order_trade_no">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>23</Position>
+    </column>
+    <default id="224" parent="130" name="DF_order_info_package_join_time">
+      <ColNames>join_time</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.18:10:12.387</ModifiedTimestamp>
+      <ObjectId>1509580416</ObjectId>
+    </default>
+    <default id="225" parent="130" name="DF_order_info_package_download_count">
+      <ColNames>download_count</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.18:10:12.420</ModifiedTimestamp>
+      <ObjectId>1525580473</ObjectId>
+    </default>
+    <key id="226" parent="130" name="PK__order_in__3213E83F87D04C97">
+      <CreatedTimestamp>2023-12-24.18:09:56.080</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:56.080</ModifiedTimestamp>
+      <ObjectId>1317579732</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__order_in__3213E83F87D04C97</UnderlyingIndexName>
+    </key>
+    <column id="227" parent="131" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(51137)</SequenceIdentity>
+    </column>
+    <column id="228" parent="131" name="order_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="229" parent="131" name="package_id">
+      <DasType>bigint|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="230" parent="131" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="231" parent="131" name="is_pay">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="232" parent="131" name="audit">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="233" parent="131" name="price">
+      <DasType>real|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="234" parent="131" name="join_time">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>getdate()</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_package_join_time</DefaultConstraintName>
+    </column>
+    <column id="235" parent="131" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="236" parent="131" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="237" parent="131" name="address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="238" parent="131" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="239" parent="131" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="240" parent="131" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="241" parent="131" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="242" parent="131" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="243" parent="131" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="244" parent="131" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="245" parent="131" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="246" parent="131" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="247" parent="131" name="unitname">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <column id="248" parent="131" name="download_count">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>22</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_package_download_count</DefaultConstraintName>
+    </column>
+    <column id="249" parent="131" name="order_trade_no">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>23</Position>
+    </column>
+    <default id="250" parent="131" name="DF_order_info_package_join_time">
+      <ColNames>join_time</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <ModifiedTimestamp>2024-05-14.22:51:51.160</ModifiedTimestamp>
+      <ObjectId>1349579846</ObjectId>
+    </default>
+    <default id="251" parent="131" name="DF_order_info_package_download_count">
+      <ColNames>download_count</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2024-05-14.22:51:51.160</ModifiedTimestamp>
+      <ObjectId>1365579903</ObjectId>
+    </default>
+    <index id="252" parent="131" name="PK__order_in__3213E83F87D04C97">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="253" parent="131" name="PK__order_in__3213E83F87D04C97">
+      <CreatedTimestamp>2024-05-14.22:51:51.160</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.160</ModifiedTimestamp>
+      <ObjectId>1333579789</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__order_in__3213E83F87D04C97</UnderlyingIndexName>
+    </key>
+    <column id="254" parent="132" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(50509)</SequenceIdentity>
+    </column>
+    <column id="255" parent="132" name="project_id">
+      <DasType>bigint|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="256" parent="132" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="257" parent="132" name="is_token">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="258" parent="132" name="status">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="259" parent="132" name="audit">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="260" parent="132" name="addition">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="261" parent="132" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="262" parent="132" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="263" parent="132" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="264" parent="132" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="265" parent="132" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="266" parent="132" name="company_address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="267" parent="132" name="company_status">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="268" parent="132" name="total">
+      <DasType>real|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="269" parent="132" name="download_status">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_project_download_status</DefaultConstraintName>
+    </column>
+    <column id="270" parent="132" name="order_picture">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="271" parent="132" name="order_time">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>getdate()</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_project_order_time</DefaultConstraintName>
+    </column>
+    <column id="272" parent="132" name="addition_message">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="273" parent="132" name="pay_time">
+      <DasType>datetime|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <default id="274" parent="132" name="DF_order_info_project_download_status">
+      <ColNames>download_status</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.18:10:12.453</ModifiedTimestamp>
+      <ObjectId>1541580530</ObjectId>
+    </default>
+    <default id="275" parent="132" name="DF_order_info_project_order_time">
+      <ColNames>order_time</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.18:10:12.483</ModifiedTimestamp>
+      <ObjectId>1557580587</ObjectId>
+    </default>
+    <key id="276" parent="132" name="PK__order_in__3213E83F5DDFD98E">
+      <CreatedTimestamp>2023-12-24.18:09:56.223</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:56.223</ModifiedTimestamp>
+      <ObjectId>1349579846</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__order_in__3213E83F5DDFD98E</UnderlyingIndexName>
+    </key>
+    <column id="277" parent="133" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(51064)</SequenceIdentity>
+    </column>
+    <column id="278" parent="133" name="project_id">
+      <DasType>bigint|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="279" parent="133" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="280" parent="133" name="is_token">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="281" parent="133" name="status">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="282" parent="133" name="audit">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="283" parent="133" name="addition">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="284" parent="133" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="285" parent="133" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="286" parent="133" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="287" parent="133" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="288" parent="133" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="289" parent="133" name="company_address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="290" parent="133" name="company_status">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="291" parent="133" name="total">
+      <DasType>float|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="292" parent="133" name="download_status">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_project_download_status</DefaultConstraintName>
+    </column>
+    <column id="293" parent="133" name="order_picture">
+      <Comment>????</Comment>
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="294" parent="133" name="order_time">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>getdate()</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_project_order_time</DefaultConstraintName>
+    </column>
+    <column id="295" parent="133" name="addition_message">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="296" parent="133" name="order_trade_no">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="297" parent="133" name="pay_time">
+      <DasType>datetime|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <default id="298" parent="133" name="DF_order_info_project_download_status">
+      <ColNames>download_status</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2024-05-14.22:51:51.167</ModifiedTimestamp>
+      <ObjectId>1413580074</ObjectId>
+    </default>
+    <default id="299" parent="133" name="DF_order_info_project_order_time">
+      <ColNames>order_time</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <ModifiedTimestamp>2024-05-14.22:51:51.167</ModifiedTimestamp>
+      <ObjectId>1429580131</ObjectId>
+    </default>
+    <index id="300" parent="133" name="PK__order_in__3213E83F5DDFD98E">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="301" parent="133" name="PK__order_in__3213E83F5DDFD98E">
+      <CreatedTimestamp>2024-05-14.22:51:51.167</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.167</ModifiedTimestamp>
+      <ObjectId>1397580017</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__order_in__3213E83F5DDFD98E</UnderlyingIndexName>
+    </key>
+    <column id="302" parent="134" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60175)</SequenceIdentity>
+    </column>
+    <column id="303" parent="134" name="project_id">
+      <DasType>bigint|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="304" parent="134" name="package_name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="305" parent="134" name="price">
+      <DasType>float|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="306" parent="134" name="file_path">
+      <DasType>varchar(1024 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="307" parent="134" name="file_name">
+      <DasType>varchar(512 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="308" parent="134" name="start_time">
+      <DasType>datetime|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="309" parent="134" name="end_time">
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <key id="310" parent="134" name="PK__package___3213E83FA0C2252E">
+      <CreatedTimestamp>2023-12-24.18:09:56.370</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:56.370</ModifiedTimestamp>
+      <ObjectId>1381579960</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__package___3213E83FA0C2252E</UnderlyingIndexName>
+    </key>
+    <column id="311" parent="135" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60250)</SequenceIdentity>
+    </column>
+    <column id="312" parent="135" name="project_id">
+      <DasType>bigint|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="313" parent="135" name="package_name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="314" parent="135" name="price">
+      <DasType>float|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="315" parent="135" name="file_path">
+      <DasType>varchar(1024 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="316" parent="135" name="file_name">
+      <DasType>varchar(512 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="317" parent="135" name="start_time">
+      <DasType>datetime|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="318" parent="135" name="end_time">
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="319" parent="135" name="PK__package___3213E83FA0C2252E">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="320" parent="135" name="PK__package___3213E83FA0C2252E">
+      <CreatedTimestamp>2024-05-14.22:51:51.170</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.170</ModifiedTimestamp>
+      <ObjectId>1461580245</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__package___3213E83FA0C2252E</UnderlyingIndexName>
+    </key>
+    <column id="321" parent="136" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60107)</SequenceIdentity>
+    </column>
+    <column id="322" parent="136" name="project_name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="323" parent="136" name="project_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="324" parent="136" name="project_file">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="325" parent="136" name="addition">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="326" parent="136" name="status">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="327" parent="136" name="is_delete">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF__project_i__is_de__5DCAEF64</DefaultConstraintName>
+    </column>
+    <column id="328" parent="136" name="create_user_id">
+      <DasType>int|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <default id="329" parent="136" name="DF__project_i__is_de__5DCAEF64">
+      <ColNames>is_delete</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.18:10:12.513</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1573580644</ObjectId>
+    </default>
+    <key id="330" parent="136" name="PK__projectI__3213E83F317F31F2">
+      <CreatedTimestamp>2023-12-24.18:09:56.507</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:56.507</ModifiedTimestamp>
+      <ObjectId>1413580074</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__projectI__3213E83F317F31F2</UnderlyingIndexName>
+    </key>
+    <column id="331" parent="137" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60169)</SequenceIdentity>
+    </column>
+    <column id="332" parent="137" name="project_name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="333" parent="137" name="project_id">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="334" parent="137" name="project_file">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="335" parent="137" name="addition">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="336" parent="137" name="status">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="337" parent="137" name="is_delete">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF__project_i__is_de__5DCAEF64</DefaultConstraintName>
+    </column>
+    <default id="338" parent="137" name="DF__project_i__is_de__5DCAEF64">
+      <ColNames>is_delete</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2024-05-14.22:51:51.177</ModifiedTimestamp>
+      <ObjectId>1509580416</ObjectId>
+    </default>
+    <index id="339" parent="137" name="PK__projectI__3213E83F317F31F2">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="340" parent="137" name="PK__projectI__3213E83F317F31F2">
+      <CreatedTimestamp>2024-05-14.22:51:51.177</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.177</ModifiedTimestamp>
+      <ObjectId>1493580359</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__projectI__3213E83F317F31F2</UnderlyingIndexName>
+    </key>
+    <column id="341" parent="138" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60364)</SequenceIdentity>
+    </column>
+    <column id="342" parent="138" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="343" parent="138" name="unid">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="344" parent="138" name="username">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="345" parent="138" name="password">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="346" parent="138" name="mobile">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="347" parent="138" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="348" parent="138" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="349" parent="138" name="address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="350" parent="138" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="351" parent="138" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="352" parent="138" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="353" parent="138" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="354" parent="138" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="355" parent="138" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="356" parent="138" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="357" parent="138" name="avatar_url">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="358" parent="138" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="359" parent="138" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="360" parent="138" name="unitname">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="361" parent="138" name="status">
+      <DasType>int|0s</DasType>
+      <Position>21</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>1</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_users_status</DefaultConstraintName>
+    </column>
+    <default id="362" parent="138" name="DF_users_status">
+      <ColNames>status</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.18:10:12.543</ModifiedTimestamp>
+      <ObjectId>1589580701</ObjectId>
+    </default>
+    <key id="363" parent="138" name="PK__user__3213E83F6EA3708B">
+      <CreatedTimestamp>2023-12-24.18:09:56.650</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:56.650</ModifiedTimestamp>
+      <ObjectId>1445580188</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__user__3213E83F6EA3708B</UnderlyingIndexName>
+    </key>
+    <column id="364" parent="139" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60771)</SequenceIdentity>
+    </column>
+    <column id="365" parent="139" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="366" parent="139" name="unid">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="367" parent="139" name="username">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="368" parent="139" name="password">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="369" parent="139" name="mobile">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="370" parent="139" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="371" parent="139" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="372" parent="139" name="address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="373" parent="139" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="374" parent="139" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="375" parent="139" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="376" parent="139" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="377" parent="139" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="378" parent="139" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="379" parent="139" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="380" parent="139" name="avatar_url">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="381" parent="139" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="382" parent="139" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="383" parent="139" name="unitname">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="384" parent="139" name="status">
+      <DasType>int|0s</DasType>
+      <Position>21</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>1</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_users_status</DefaultConstraintName>
+    </column>
+    <default id="385" parent="139" name="DF_users_status">
+      <ColNames>status</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+      <ModifiedTimestamp>2024-05-14.22:51:51.187</ModifiedTimestamp>
+      <ObjectId>1557580587</ObjectId>
+    </default>
+    <index id="386" parent="139" name="PK__user__3213E83F6EA3708B">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="387" parent="139" name="PK__user__3213E83F6EA3708B">
+      <CreatedTimestamp>2024-05-14.22:51:51.187</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.187</ModifiedTimestamp>
+      <ObjectId>1541580530</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__user__3213E83F6EA3708B</UnderlyingIndexName>
+    </key>
+    <column id="388" parent="140" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(30080)</SequenceIdentity>
+    </column>
+    <column id="389" parent="140" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="390" parent="140" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="391" parent="140" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="392" parent="140" name="address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="393" parent="140" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="394" parent="140" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="395" parent="140" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="396" parent="140" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="397" parent="140" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="398" parent="140" name="company_address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="399" parent="140" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="400" parent="140" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="401" parent="140" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="402" parent="140" name="unitname">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="403" parent="140" name="order_id">
+      <DasType>bigint|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="404" parent="140" name="is_audit">
+      <DasType>int|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <key id="405" parent="140" name="PK__users_co__3213E83F4DFE24EA">
+      <CreatedTimestamp>2023-12-24.18:09:56.793</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.18:09:56.793</ModifiedTimestamp>
+      <ObjectId>1477580302</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__users_co__3213E83F4DFE24EA</UnderlyingIndexName>
+    </key>
+    <column id="406" parent="141" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(30080)</SequenceIdentity>
+    </column>
+    <column id="407" parent="141" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="408" parent="141" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="409" parent="141" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="410" parent="141" name="address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="411" parent="141" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="412" parent="141" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="413" parent="141" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="414" parent="141" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="415" parent="141" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="416" parent="141" name="company_address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="417" parent="141" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="418" parent="141" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="419" parent="141" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="420" parent="141" name="unitname">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="421" parent="141" name="order_id">
+      <DasType>bigint|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="422" parent="141" name="is_audit">
+      <DasType>int|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <index id="423" parent="141" name="PK__users_co__3213E83F4DFE24EA">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="424" parent="141" name="PK__users_co__3213E83F4DFE24EA">
+      <CreatedTimestamp>2024-05-14.22:51:51.197</CreatedTimestamp>
+      <ModifiedTimestamp>2024-05-14.22:51:51.197</ModifiedTimestamp>
+      <ObjectId>1589580701</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__users_co__3213E83F4DFE24EA</UnderlyingIndexName>
+    </key>
+    <column id="425" parent="142" name="id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(10)</SequenceIdentity>
+    </column>
+    <column id="426" parent="142" name="username">
+      <DasType>varchar(128 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="427" parent="142" name="user_account">
+      <DasType>varchar(256 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="428" parent="142" name="user_password">
+      <DasType>varchar(256 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="429" parent="142" name="is_superadmin">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF__admin_use__is_su__59063A47</DefaultConstraintName>
+    </column>
+    <default id="430" parent="142" name="DF__admin_use__is_su__59063A47">
+      <ColNames>is_superadmin</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-28.04:25:50.227</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1493580359</ObjectId>
+    </default>
+    <index id="431" parent="142" name="admin_user_pk">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="432" parent="142" name="admin_user_pk">
+      <CreatedTimestamp>2023-12-28.04:25:34.737</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:34.737</ModifiedTimestamp>
+      <ObjectId>1221579390</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>admin_user_pk</UnderlyingIndexName>
+    </key>
+    <column id="433" parent="143" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(61553)</SequenceIdentity>
+    </column>
+    <column id="434" parent="143" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="435" parent="143" name="file_path">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="436" parent="143" name="name">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="437" parent="143" name="PK__file_add__3213E83FA950AFC9">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="438" parent="143" name="PK__file_add__3213E83FA950AFC9">
+      <CreatedTimestamp>2023-12-28.04:25:34.870</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:34.870</ModifiedTimestamp>
+      <ObjectId>1253579504</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__file_add__3213E83FA950AFC9</UnderlyingIndexName>
+    </key>
+    <column id="439" parent="144" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="440" parent="144" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="441" parent="144" name="file_path">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="442" parent="144" name="status">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="443" parent="144" name="name">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="444" parent="144" name="PK__file_add__3213E83F8F3198ED">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="445" parent="144" name="PK__file_add__3213E83F8F3198ED">
+      <CreatedTimestamp>2023-12-28.04:25:35</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35</ModifiedTimestamp>
+      <ObjectId>1285579618</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__file_add__3213E83F8F3198ED</UnderlyingIndexName>
+    </key>
+    <column id="446" parent="145" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(50552)</SequenceIdentity>
+    </column>
+    <column id="447" parent="145" name="order_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="448" parent="145" name="package_id">
+      <DasType>bigint|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="449" parent="145" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="450" parent="145" name="is_pay">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="451" parent="145" name="audit">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="452" parent="145" name="price">
+      <DasType>float|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="453" parent="145" name="join_time">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>getdate()</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_package_join_time</DefaultConstraintName>
+    </column>
+    <column id="454" parent="145" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="455" parent="145" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="456" parent="145" name="address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="457" parent="145" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="458" parent="145" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="459" parent="145" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="460" parent="145" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="461" parent="145" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="462" parent="145" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="463" parent="145" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="464" parent="145" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="465" parent="145" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="466" parent="145" name="unitname">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <column id="467" parent="145" name="download_count">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>22</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_package_download_count</DefaultConstraintName>
+    </column>
+    <column id="468" parent="145" name="order_trade_no">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>23</Position>
+    </column>
+    <default id="469" parent="145" name="DF_order_info_package_join_time">
+      <ColNames>join_time</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <ModifiedTimestamp>2023-12-28.04:25:50.257</ModifiedTimestamp>
+      <ObjectId>1509580416</ObjectId>
+    </default>
+    <default id="470" parent="145" name="DF_order_info_package_download_count">
+      <ColNames>download_count</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-28.04:25:50.287</ModifiedTimestamp>
+      <ObjectId>1525580473</ObjectId>
+    </default>
+    <index id="471" parent="145" name="PK__order_in__3213E83F87D04C97">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="472" parent="145" name="PK__order_in__3213E83F87D04C97">
+      <CreatedTimestamp>2023-12-28.04:25:35.130</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35.130</ModifiedTimestamp>
+      <ObjectId>1317579732</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__order_in__3213E83F87D04C97</UnderlyingIndexName>
+    </key>
+    <column id="473" parent="146" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60538)</SequenceIdentity>
+    </column>
+    <column id="474" parent="146" name="project_id">
+      <DasType>bigint|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="475" parent="146" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="476" parent="146" name="is_token">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="477" parent="146" name="status">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="478" parent="146" name="audit">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="479" parent="146" name="addition">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="480" parent="146" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="481" parent="146" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="482" parent="146" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="483" parent="146" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="484" parent="146" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="485" parent="146" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="486" parent="146" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="487" parent="146" name="total">
+      <DasType>float|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="488" parent="146" name="download_status">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_project_download_status</DefaultConstraintName>
+    </column>
+    <column id="489" parent="146" name="order_picture">
+      <Comment>????</Comment>
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="490" parent="146" name="order_time">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>getdate()</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_project_order_time</DefaultConstraintName>
+    </column>
+    <column id="491" parent="146" name="addition_message">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="492" parent="146" name="pay_time">
+      <DasType>datetime|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <default id="493" parent="146" name="DF_order_info_project_download_status">
+      <ColNames>download_status</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-28.04:25:50.313</ModifiedTimestamp>
+      <ObjectId>1541580530</ObjectId>
+    </default>
+    <default id="494" parent="146" name="DF_order_info_project_order_time">
+      <ColNames>order_time</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <ModifiedTimestamp>2023-12-28.04:25:50.343</ModifiedTimestamp>
+      <ObjectId>1557580587</ObjectId>
+    </default>
+    <index id="495" parent="146" name="PK__order_in__3213E83F5DDFD98E">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="496" parent="146" name="PK__order_in__3213E83F5DDFD98E">
+      <CreatedTimestamp>2023-12-28.04:25:35.260</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35.260</ModifiedTimestamp>
+      <ObjectId>1349579846</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__order_in__3213E83F5DDFD98E</UnderlyingIndexName>
+    </key>
+    <column id="497" parent="147" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60179)</SequenceIdentity>
+    </column>
+    <column id="498" parent="147" name="project_id">
+      <DasType>bigint|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="499" parent="147" name="package_name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="500" parent="147" name="price">
+      <DasType>float|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="501" parent="147" name="file_path">
+      <DasType>varchar(1024 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="502" parent="147" name="file_name">
+      <DasType>varchar(512 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="503" parent="147" name="start_time">
+      <DasType>datetime|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="504" parent="147" name="end_time">
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="505" parent="147" name="PK__package___3213E83FA0C2252E">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="506" parent="147" name="PK__package___3213E83FA0C2252E">
+      <CreatedTimestamp>2023-12-28.04:25:35.390</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35.390</ModifiedTimestamp>
+      <ObjectId>1381579960</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__package___3213E83FA0C2252E</UnderlyingIndexName>
+    </key>
+    <column id="507" parent="148" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60110)</SequenceIdentity>
+    </column>
+    <column id="508" parent="148" name="project_name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="509" parent="148" name="project_id">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="510" parent="148" name="project_file">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="511" parent="148" name="addition">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="512" parent="148" name="status">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="513" parent="148" name="is_delete">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF__project_i__is_de__5DCAEF64</DefaultConstraintName>
+    </column>
+    <default id="514" parent="148" name="DF__project_i__is_de__5DCAEF64">
+      <ColNames>is_delete</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-28.04:25:50.373</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1573580644</ObjectId>
+    </default>
+    <index id="515" parent="148" name="PK__projectI__3213E83F317F31F2">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="516" parent="148" name="PK__projectI__3213E83F317F31F2">
+      <CreatedTimestamp>2023-12-28.04:25:35.523</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35.523</ModifiedTimestamp>
+      <ObjectId>1413580074</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__projectI__3213E83F317F31F2</UnderlyingIndexName>
+    </key>
+    <column id="517" parent="149" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60373)</SequenceIdentity>
+    </column>
+    <column id="518" parent="149" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="519" parent="149" name="unid">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="520" parent="149" name="username">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="521" parent="149" name="password">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="522" parent="149" name="mobile">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="523" parent="149" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="524" parent="149" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="525" parent="149" name="address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="526" parent="149" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="527" parent="149" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="528" parent="149" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="529" parent="149" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="530" parent="149" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="531" parent="149" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="532" parent="149" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="533" parent="149" name="avatar_url">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="534" parent="149" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="535" parent="149" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="536" parent="149" name="unitname">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="537" parent="149" name="status">
+      <DasType>int|0s</DasType>
+      <Position>21</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>1</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_users_status</DefaultConstraintName>
+    </column>
+    <default id="538" parent="149" name="DF_users_status">
+      <ColNames>status</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+      <ModifiedTimestamp>2023-12-28.04:25:50.403</ModifiedTimestamp>
+      <ObjectId>1589580701</ObjectId>
+    </default>
+    <index id="539" parent="149" name="PK__user__3213E83F6EA3708B">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="540" parent="149" name="PK__user__3213E83F6EA3708B">
+      <CreatedTimestamp>2023-12-28.04:25:35.657</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35.657</ModifiedTimestamp>
+      <ObjectId>1445580188</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__user__3213E83F6EA3708B</UnderlyingIndexName>
+    </key>
+    <column id="541" parent="150" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(30080)</SequenceIdentity>
+    </column>
+    <column id="542" parent="150" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="543" parent="150" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="544" parent="150" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="545" parent="150" name="address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="546" parent="150" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="547" parent="150" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="548" parent="150" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="549" parent="150" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="550" parent="150" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="551" parent="150" name="company_address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="552" parent="150" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="553" parent="150" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="554" parent="150" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="555" parent="150" name="unitname">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="556" parent="150" name="order_id">
+      <DasType>bigint|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="557" parent="150" name="is_audit">
+      <DasType>int|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <index id="558" parent="150" name="PK__users_co__3213E83F4DFE24EA">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="559" parent="150" name="PK__users_co__3213E83F4DFE24EA">
+      <CreatedTimestamp>2023-12-28.04:25:35.787</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-28.04:25:35.787</ModifiedTimestamp>
+      <ObjectId>1477580302</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__users_co__3213E83F4DFE24EA</UnderlyingIndexName>
+    </key>
+    <column id="560" parent="153" name="optname">
+      <DasType>sysname|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="561" parent="153" name="value">
+      <DasType>bit|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="562" parent="153" name="major_version">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="563" parent="153" name="minor_version">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="564" parent="153" name="revision">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="565" parent="153" name="install_failures">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="566" parent="154" name="id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(10)</SequenceIdentity>
+    </column>
+    <column id="567" parent="154" name="username">
+      <DasType>varchar(128 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="568" parent="154" name="user_account">
+      <DasType>varchar(256 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="569" parent="154" name="user_password">
+      <DasType>varchar(256 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="570" parent="154" name="is_superadmin">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF__admin_use__is_su__34E8D562</DefaultConstraintName>
+    </column>
+    <default id="571" parent="154" name="DF__admin_use__is_su__34E8D562">
+      <ColNames>is_superadmin</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.01:12:56.540</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>887674210</ObjectId>
+    </default>
+    <index id="572" parent="154" name="admin_user_pk">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="573" parent="154" name="admin_user_pk">
+      <CreatedTimestamp>2023-12-24.01:12:44.627</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.627</ModifiedTimestamp>
+      <ObjectId>615673241</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>admin_user_pk</UnderlyingIndexName>
+    </key>
+    <column id="574" parent="155" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(61545)</SequenceIdentity>
+    </column>
+    <column id="575" parent="155" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="576" parent="155" name="file_path">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="577" parent="155" name="name">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="578" parent="155" name="PK__file_add__3213E83FA950AFC9">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="579" parent="155" name="PK__file_add__3213E83FA950AFC9">
+      <CreatedTimestamp>2023-12-24.01:12:44.637</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.637</ModifiedTimestamp>
+      <ObjectId>647673355</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__file_add__3213E83FA950AFC9</UnderlyingIndexName>
+    </key>
+    <column id="580" parent="156" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="581" parent="156" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="582" parent="156" name="file_path">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="583" parent="156" name="status">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="584" parent="156" name="name">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="585" parent="156" name="PK__file_add__3213E83F8F3198ED">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="586" parent="156" name="PK__file_add__3213E83F8F3198ED">
+      <CreatedTimestamp>2023-12-24.01:12:44.640</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.640</ModifiedTimestamp>
+      <ObjectId>679673469</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__file_add__3213E83F8F3198ED</UnderlyingIndexName>
+    </key>
+    <column id="587" parent="157" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(50509)</SequenceIdentity>
+    </column>
+    <column id="588" parent="157" name="order_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="589" parent="157" name="package_id">
+      <DasType>bigint|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="590" parent="157" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="591" parent="157" name="is_pay">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="592" parent="157" name="audit">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="593" parent="157" name="price">
+      <DasType>real|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="594" parent="157" name="join_time">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>getdate()</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_package_join_time</DefaultConstraintName>
+    </column>
+    <column id="595" parent="157" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="596" parent="157" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="597" parent="157" name="address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="598" parent="157" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="599" parent="157" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="600" parent="157" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="601" parent="157" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="602" parent="157" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="603" parent="157" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="604" parent="157" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="605" parent="157" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="606" parent="157" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="607" parent="157" name="unitname">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <column id="608" parent="157" name="download_count">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>22</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_package_download_count</DefaultConstraintName>
+    </column>
+    <default id="609" parent="157" name="DF_order_info_package_join_time">
+      <ColNames>join_time</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.01:12:56.547</ModifiedTimestamp>
+      <ObjectId>903674267</ObjectId>
+    </default>
+    <default id="610" parent="157" name="DF_order_info_package_download_count">
+      <ColNames>download_count</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.01:12:56.550</ModifiedTimestamp>
+      <ObjectId>919674324</ObjectId>
+    </default>
+    <index id="611" parent="157" name="PK__order_in__3213E83F87D04C97">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="612" parent="157" name="PK__order_in__3213E83F87D04C97">
+      <CreatedTimestamp>2023-12-24.01:12:44.650</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.650</ModifiedTimestamp>
+      <ObjectId>711673583</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__order_in__3213E83F87D04C97</UnderlyingIndexName>
+    </key>
+    <column id="613" parent="158" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(50509)</SequenceIdentity>
+    </column>
+    <column id="614" parent="158" name="project_id">
+      <DasType>bigint|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="615" parent="158" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="616" parent="158" name="is_token">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="617" parent="158" name="status">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="618" parent="158" name="audit">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="619" parent="158" name="addition">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="620" parent="158" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="621" parent="158" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="622" parent="158" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="623" parent="158" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="624" parent="158" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="625" parent="158" name="company_address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="626" parent="158" name="company_status">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="627" parent="158" name="total">
+      <DasType>real|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="628" parent="158" name="download_status">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_project_download_status</DefaultConstraintName>
+    </column>
+    <column id="629" parent="158" name="order_picture">
+      <Comment>????</Comment>
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="630" parent="158" name="order_time">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>getdate()</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_order_info_project_order_time</DefaultConstraintName>
+    </column>
+    <column id="631" parent="158" name="addition_message">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <default id="632" parent="158" name="DF_order_info_project_download_status">
+      <ColNames>download_status</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.01:12:56.553</ModifiedTimestamp>
+      <ObjectId>935674381</ObjectId>
+    </default>
+    <default id="633" parent="158" name="DF_order_info_project_order_time">
+      <ColNames>order_time</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.01:12:56.557</ModifiedTimestamp>
+      <ObjectId>951674438</ObjectId>
+    </default>
+    <index id="634" parent="158" name="PK__order_in__3213E83F5DDFD98E">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="635" parent="158" name="PK__order_in__3213E83F5DDFD98E">
+      <CreatedTimestamp>2023-12-24.01:12:44.653</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.653</ModifiedTimestamp>
+      <ObjectId>743673697</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__order_in__3213E83F5DDFD98E</UnderlyingIndexName>
+    </key>
+    <column id="636" parent="159" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60175)</SequenceIdentity>
+    </column>
+    <column id="637" parent="159" name="project_id">
+      <DasType>bigint|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="638" parent="159" name="package_name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="639" parent="159" name="price">
+      <DasType>float|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="640" parent="159" name="file_path">
+      <DasType>varchar(1024 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="641" parent="159" name="file_name">
+      <DasType>varchar(512 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="642" parent="159" name="start_time">
+      <DasType>datetime|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="643" parent="159" name="end_time">
+      <DasType>datetime|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <index id="644" parent="159" name="PK__package___3213E83FA0C2252E">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="645" parent="159" name="PK__package___3213E83FA0C2252E">
+      <CreatedTimestamp>2023-12-24.01:12:44.660</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.660</ModifiedTimestamp>
+      <ObjectId>775673811</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__package___3213E83FA0C2252E</UnderlyingIndexName>
+    </key>
+    <column id="646" parent="160" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60107)</SequenceIdentity>
+    </column>
+    <column id="647" parent="160" name="project_name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="648" parent="160" name="project_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="649" parent="160" name="project_file">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="650" parent="160" name="addition">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="651" parent="160" name="status">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="652" parent="160" name="is_delete">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>0</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF__project_i__is_de__39AD8A7F</DefaultConstraintName>
+    </column>
+    <default id="653" parent="160" name="DF__project_i__is_de__39AD8A7F">
+      <ColNames>is_delete</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.01:12:56.560</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>967674495</ObjectId>
+    </default>
+    <index id="654" parent="160" name="PK__projectI__3213E83F317F31F2">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="655" parent="160" name="PK__projectI__3213E83F317F31F2">
+      <CreatedTimestamp>2023-12-24.01:12:44.663</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.663</ModifiedTimestamp>
+      <ObjectId>807673925</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__projectI__3213E83F317F31F2</UnderlyingIndexName>
+    </key>
+    <column id="656" parent="161" name="xserver_name">
+      <DasType>varchar(30 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="657" parent="161" name="xdttm_ins">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="658" parent="161" name="xdttm_last_ins_upd">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="659" parent="161" name="xfallback_dbid">
+      <DasType>smallint|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="660" parent="161" name="name">
+      <DasType>varchar(30 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="661" parent="161" name="dbid">
+      <DasType>smallint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="662" parent="161" name="status">
+      <DasType>smallint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="663" parent="161" name="version">
+      <DasType>smallint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="664" parent="162" name="xserver_name">
+      <DasType>varchar(30 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="665" parent="162" name="xdttm_ins">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="666" parent="162" name="xdttm_last_ins_upd">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="667" parent="162" name="xfallback_low">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="668" parent="162" name="xfallback_drive">
+      <DasType>char(2 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="669" parent="162" name="low">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="670" parent="162" name="high">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="671" parent="162" name="status">
+      <DasType>smallint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="672" parent="162" name="name">
+      <DasType>varchar(30 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="673" parent="162" name="phyname">
+      <DasType>varchar(127 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="674" parent="163" name="xserver_name">
+      <DasType>varchar(30 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="675" parent="163" name="xdttm_ins">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="676" parent="163" name="xdttm_last_ins_upd">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="677" parent="163" name="xfallback_vstart">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="678" parent="163" name="dbid">
+      <DasType>smallint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="679" parent="163" name="segmap">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="680" parent="163" name="lstart">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="681" parent="163" name="sizepg">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="682" parent="163" name="vstart">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="683" parent="164" name="lastrun">
+      <DasType>datetime|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="684" parent="164" name="cpu_busy">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="685" parent="164" name="io_busy">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="686" parent="164" name="idle">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="687" parent="164" name="pack_received">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="688" parent="164" name="pack_sent">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="689" parent="164" name="connections">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="690" parent="164" name="pack_errors">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="691" parent="164" name="total_read">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="692" parent="164" name="total_write">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="693" parent="164" name="total_errors">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="694" parent="165" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(60364)</SequenceIdentity>
+    </column>
+    <column id="695" parent="165" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="696" parent="165" name="unid">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="697" parent="165" name="username">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="698" parent="165" name="password">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="699" parent="165" name="mobile">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="700" parent="165" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="701" parent="165" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="702" parent="165" name="address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="703" parent="165" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="704" parent="165" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="705" parent="165" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="706" parent="165" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="707" parent="165" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="708" parent="165" name="company_address">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="709" parent="165" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="710" parent="165" name="avatar_url">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="711" parent="165" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="712" parent="165" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="713" parent="165" name="unitname">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="714" parent="165" name="status">
+      <DasType>int|0s</DasType>
+      <Position>21</Position>
+      <DefaultConstraintInline>1</DefaultConstraintInline>
+      <DefaultConstraintDefaultExpression>1</DefaultConstraintDefaultExpression>
+      <DefaultConstraintName>DF_users_status</DefaultConstraintName>
+    </column>
+    <default id="715" parent="165" name="DF_users_status">
+      <ColNames>status</ColNames>
+      <DefaultExpression>1</DefaultExpression>
+      <ModifiedTimestamp>2023-12-24.01:12:56.563</ModifiedTimestamp>
+      <ObjectId>983674552</ObjectId>
+    </default>
+    <index id="716" parent="165" name="PK__user__3213E83F6EA3708B">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="717" parent="165" name="PK__user__3213E83F6EA3708B">
+      <CreatedTimestamp>2023-12-24.01:12:44.670</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.670</ModifiedTimestamp>
+      <ObjectId>839674039</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__user__3213E83F6EA3708B</UnderlyingIndexName>
+    </key>
+    <column id="718" parent="166" name="id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(30080)</SequenceIdentity>
+    </column>
+    <column id="719" parent="166" name="open_id">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="720" parent="166" name="telephone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="721" parent="166" name="email">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="722" parent="166" name="address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="723" parent="166" name="invoice_title">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="724" parent="166" name="tax_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="725" parent="166" name="bank">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="726" parent="166" name="bank_number">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="727" parent="166" name="bank_phone">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="728" parent="166" name="company_address">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="729" parent="166" name="company_status">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="730" parent="166" name="phone_num">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="731" parent="166" name="name">
+      <DasType>nvarchar(255 char)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="732" parent="166" name="unitname">
+      <DasType>varchar(255 char)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="733" parent="166" name="order_id">
+      <DasType>bigint|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="734" parent="166" name="is_audit">
+      <DasType>int|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <index id="735" parent="166" name="PK__users_co__3213E83F4DFE24EA">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="736" parent="166" name="PK__users_co__3213E83F4DFE24EA">
+      <CreatedTimestamp>2023-12-24.01:12:44.677</CreatedTimestamp>
+      <ModifiedTimestamp>2023-12-24.01:12:44.677</ModifiedTimestamp>
+      <ObjectId>871674153</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__users_co__3213E83F4DFE24EA</UnderlyingIndexName>
+    </key>
+    <column id="737" parent="167" name="name">
+      <DasType>nvarchar(35 char)|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="738" parent="167" name="number">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="739" parent="167" name="type">
+      <DasType>nchar(3 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="740" parent="167" name="low">
+      <DasType>int|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="741" parent="167" name="high">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="742" parent="167" name="status">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+  </database-model>
+</dataSource>
