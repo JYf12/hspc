@@ -26,3 +26,5 @@ huashengpc record
 ![](F:\temp\huashengpc\git3.jpeg)
 
 ![](F:\temp\huashengpc\gitstar.jpeg)
+
+update righthere at Sep 13th 16:22
